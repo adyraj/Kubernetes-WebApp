@@ -1,0 +1,103 @@
+<style>
+    body {
+        background-image: url('https://blog.appoptics.com/wp-content/uploads/2018/08/AO-Blog-Images-3000x2000-Troubleshoot-Kubernetes.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    
+    .title {
+        font-family: serif;
+        font-size: 13vh;
+        color: white;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .heading {
+        font-family: 'Roboto Slab', serif;
+        text-align: center;
+        font-size: 7vh;
+        color: white;
+        margin: 0;
+    }
+    
+    input[type=text] {
+        justify-content: center;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        margin-top: 15px;
+        width: 40%;
+        padding: 12px 40px;
+        text-align: center;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+    
+    .wrapper {
+        text-align: center;
+        /* margin-top: 5px; */
+    }
+    
+    #btn {
+        background-color: rgb(48, 48, 211);
+        color: rgb(239, 237, 243);
+        border: none;
+        padding: 12px 34px;
+        text-decoration: none;
+        margin-left: 34px;
+        cursor: pointer;
+        font-size: 23px;
+        text-align: center;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+    
+    #d1 {
+        border: 3px solid white;
+        width: 55%;
+        padding: 12px 40px;
+        margin: auto;
+        height: 48%;
+        background-color: white;
+        font-size: 21px;
+        overflow: scroll;
+        border-radius: 10px;
+        font-weight: bold;
+        text-align: center;
+    }
+</style>
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght700&display=swap" rel="stylesheet">
+    <script src="k8s.js"></script>
+    <title>Kubernetes</title>
+</head>
+
+<body>
+    <div>
+        <h1 class="title">Kubernetes Web App</h1>
+
+        <p class="heading">Enter Your Requirement!!</p>
+
+        <input type="text" placeholder="Enter your requirement" id="in1" />
+        <br />
+        <div class="wrapper">
+            <button id="btn" onclick="cmd()">RUN</button>
+        </div>
+        <br>
+        <div id="d1"></div>
+    </div>
+</body>
+
+</html>
