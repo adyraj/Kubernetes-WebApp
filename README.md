@@ -1,6 +1,6 @@
 Kubernetes WebApp
 =========
-This repository contains code for Kubernetes WebApp which can run kubernetes commands on server by getting input from using in normal english sentences.\ Example - when we write 'run deployment using httpd image' then it runs a complete deployment command in the backend. 
+This repository contains code for Kubernetes WebApp which can run kubernetes commands on server by getting input from user in normal english sentences.\ Example - when we write 'run deployment using httpd image' then it runs a complete deployment command in the backend. 
 
 Feature provided by WebApp
 ------------
